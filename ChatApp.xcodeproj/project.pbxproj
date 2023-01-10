@@ -19,6 +19,7 @@
 		60EEE524296DA5EA009FC8BD /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EEE523296DA5EA009FC8BD /* VideoPlayerViewController.swift */; };
 		60EEE526296DA5FA009FC8BD /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EEE525296DA5FA009FC8BD /* NewConversationViewController.swift */; };
 		60EEE528296DA604009FC8BD /* ProfileViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EEE527296DA604009FC8BD /* ProfileViewViewController.swift */; };
+		60EEE52D296DAC43009FC8BD /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EEE52C296DAC43009FC8BD /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		60EEE523296DA5EA009FC8BD /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		60EEE525296DA5FA009FC8BD /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		60EEE527296DA604009FC8BD /* ProfileViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewController.swift; sourceTree = "<group>"; };
+		60EEE52C296DAC43009FC8BD /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +70,8 @@
 		60EEE501296DA35B009FC8BD /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				60EEE52A296DA722009FC8BD /* ViewModels */,
 				60EEE519296DA378009FC8BD /* Resources */,
-				60EEE518296DA372009FC8BD /* ViewModels */,
 				60EEE516296DA362009FC8BD /* Models */,
 				60EEE51A296DA382009FC8BD /* Views */,
 				60EEE517296DA36A009FC8BD /* Controllers */,
@@ -89,8 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				60EEE506296DA35B009FC8BD /* ConversationsViewController.swift */,
-				60EEE51D296DA5BB009FC8BD /* LoginViewController.swift */,
-				60EEE51F296DA5C9009FC8BD /* RegisterViewController.swift */,
+				60EEE52B296DA74B009FC8BD /* Login */,
 				60EEE521296DA5E0009FC8BD /* PhotoViewerViewController.swift */,
 				60EEE523296DA5EA009FC8BD /* VideoPlayerViewController.swift */,
 				60EEE525296DA5FA009FC8BD /* NewConversationViewController.swift */,
@@ -99,18 +100,12 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		60EEE518296DA372009FC8BD /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		60EEE519296DA378009FC8BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				60EEE502296DA35B009FC8BD /* AppDelegate.swift */,
 				60EEE504296DA35B009FC8BD /* SceneDelegate.swift */,
+				60EEE52C296DAC43009FC8BD /* Extentions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -131,6 +126,22 @@
 				60EEE50D296DA35C009FC8BD /* LaunchScreen.storyboard */,
 			);
 			path = Stroyboards;
+			sourceTree = "<group>";
+		};
+		60EEE52A296DA722009FC8BD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		60EEE52B296DA74B009FC8BD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				60EEE51D296DA5BB009FC8BD /* LoginViewController.swift */,
+				60EEE51F296DA5C9009FC8BD /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 			files = (
 				60EEE51E296DA5BB009FC8BD /* LoginViewController.swift in Sources */,
 				60EEE520296DA5C9009FC8BD /* RegisterViewController.swift in Sources */,
+				60EEE52D296DAC43009FC8BD /* Extentions.swift in Sources */,
 				60EEE526296DA5FA009FC8BD /* NewConversationViewController.swift in Sources */,
 				60EEE507296DA35B009FC8BD /* ConversationsViewController.swift in Sources */,
 				60EEE524296DA5EA009FC8BD /* VideoPlayerViewController.swift in Sources */,
