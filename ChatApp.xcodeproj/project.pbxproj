@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600CFE302970397A00B49261 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CFE2F2970397A00B49261 /* DatabaseManager.swift */; };
 		60EEE503296DA35B009FC8BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EEE502296DA35B009FC8BD /* AppDelegate.swift */; };
 		60EEE505296DA35B009FC8BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EEE504296DA35B009FC8BD /* SceneDelegate.swift */; };
 		60EEE507296DA35B009FC8BD /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EEE506296DA35B009FC8BD /* ConversationsViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		600CFE2F2970397A00B49261 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		60EEE4FF296DA35B009FC8BD /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EEE502296DA35B009FC8BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60EEE504296DA35B009FC8BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				60EEE502296DA35B009FC8BD /* AppDelegate.swift */,
 				60EEE504296DA35B009FC8BD /* SceneDelegate.swift */,
 				60EEE52C296DAC43009FC8BD /* Extentions.swift */,
+				600CFE2F2970397A00B49261 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60EEE51E296DA5BB009FC8BD /* LoginViewController.swift in Sources */,
+				600CFE302970397A00B49261 /* DatabaseManager.swift in Sources */,
 				60EEE520296DA5C9009FC8BD /* RegisterViewController.swift in Sources */,
 				60EEE52D296DAC43009FC8BD /* Extentions.swift in Sources */,
 				60EEE526296DA5FA009FC8BD /* NewConversationViewController.swift in Sources */,
